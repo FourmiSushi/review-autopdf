@@ -1,7 +1,8 @@
 FROM archlinux/base
 
 RUN pacman -Syu --noconfirm \
-                texlive-most \
+                texlive-core \
+                texlive-latexextra \
                 texlive-langjapanese \
                 zip \
                 ruby \
